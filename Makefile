@@ -1,8 +1,8 @@
-TARGET_MODULE:=vnet
+TARGET_MODULE:=virtual_net
 
 # If we running by kernel building system
 ifneq ($(KERNELRELEASE),)
-	$(TARGET_MODULE)-objs := main.o
+	$(TARGET_MODULE)-objs := virt.o
 	obj-m := $(TARGET_MODULE).o
 
 # If we are running without kernel build system

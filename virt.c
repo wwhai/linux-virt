@@ -113,7 +113,7 @@ static void virtual_net_exit(void)
 module_init(virtual_net_init);
 module_exit(virtual_net_exit);
 
-MODULE_LICENSE("GPL v2");
+MODULE_LICENSE("MIT");
 MODULE_AUTHOR("wwhai");
 MODULE_DESCRIPTION("A simple virtual network module");
 MODULE_ALIAS("virtual-network");
