@@ -23,7 +23,6 @@ load:
 	insmod ./$(TARGET_MODULE).ko
 
 unload:
-	rm /dev/simple-module
 	rmmod ./$(TARGET_MODULE).ko
 
 create:
